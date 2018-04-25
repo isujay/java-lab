@@ -88,6 +88,5 @@ public class EmployeeDataEntry {
 	
 		frameobj.setVisible(true);
 	}
-
 }
 
