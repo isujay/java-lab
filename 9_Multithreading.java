@@ -27,7 +27,7 @@ public class Multithreading implements Runnable
 			e.printStackTrace();
 		}
 		
-		System.out.println("Sum of " + startCount + " to " + startCount+10 + " = " + sum);
+		System.out.println("Sum of " + startCount + " to " + (startCount+9) + " = " + sum);
 		total += sum;		
 	}
 	
