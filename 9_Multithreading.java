@@ -2,9 +2,9 @@ import java.util.Date;
 public class Multithreading implements Runnable
 {
 	int startCount;
+	static long total;
 	String name;
 	Thread t;
-	long total;
 	
 	public Multithreading(String name, int startCount)
 	{
@@ -31,6 +31,7 @@ public class Multithreading implements Runnable
 		total += sum;		
 	}
 	
+	
 	public static void main(String[] args) 
 	{
 		int startCount = 1;
@@ -51,10 +52,11 @@ public class Multithreading implements Runnable
 		catch (InterruptedException e) {
 				e.printStackTrace();
 			}
+		
+		System.out.println("Total = " + total);
 		Date end = new Date();
 		
 		long diff = end.getTime() - start.getTime();
 		System.out.println("Computation time : " + diff + "ms");	
 	}
 }
-
