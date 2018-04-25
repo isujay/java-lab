@@ -1,7 +1,4 @@
-package multithreading;
-
 import java.util.Date;
-
 public class Multithreading implements Runnable{
 
 	int startCount;
@@ -31,10 +28,8 @@ public class Multithreading implements Runnable{
 		}
 		
 		System.out.println("Sum of " + startCount + " to " + startCount+10 + " = " + sum);
-		total += sum;
-		
+		total += sum;		
 	}
-	
 	
 	public static void main(String[] args) 
 	{
@@ -59,10 +54,7 @@ public class Multithreading implements Runnable{
 		Date end = new Date();
 		
 		long diff = end.getTime() - start.getTime();
-		System.out.println("Computation time : " + diff + "ms");
-		
-		
+		System.out.println("Computation time : " + diff + "ms");	
 	}
-
 }
 
