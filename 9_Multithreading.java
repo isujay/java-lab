@@ -1,6 +1,6 @@
 import java.util.Date;
-public class Multithreading implements Runnable{
-
+public class Multithreading implements Runnable
+{
 	int startCount;
 	String name;
 	Thread t;
