@@ -2,10 +2,9 @@ import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
 import javax.swing.*;
-  
+
 public class EmployeeDataEntry {
 	private static Color black;
-
 	public static void main(String[] args) 
 	{
 		int i,j;
@@ -34,8 +33,7 @@ public class EmployeeDataEntry {
 		JButton b2 = new JButton("RESET");
 		
 		b1.addActionListener(new ActionListener()
-		{
-			
+		{		
 			@Override
 			public void actionPerformed(ActionEvent e) 
 			{
@@ -89,4 +87,3 @@ public class EmployeeDataEntry {
 		frameobj.setVisible(true);
 	}
 }
-
