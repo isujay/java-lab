@@ -8,7 +8,7 @@ public class Multithreading implements Runnable
 	
 	public Multithreading(String name, int startCount)
 	{
-		this.name 		= name;
+		this.name 	= name;
 		this.startCount = startCount;
 		t = new Thread(this, name);
 		t.start();
